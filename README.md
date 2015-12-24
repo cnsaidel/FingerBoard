@@ -2,7 +2,7 @@
 
 A simple and fun app that allows the player to control a longboard in order to dodge obstacles and other objects. 
 
-This app is not fully functioning. Rather it is a final prototype of an IOS class taken this past fall. 
+This app is not fully functioning, rather it is a final prototype of an IOS class taken this past fall. 
 
 
 ## Landing Page
