@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED73E1B1C23D164005A8001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED73E1A1C23D164005A8001 /* AppDelegate.swift */; };
+		BED73E1D1C23D164005A8001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED73E1C1C23D164005A8001 /* ViewController.swift */; };
+		BED73E201C23D164005A8001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED73E1E1C23D164005A8001 /* Main.storyboard */; };
+		BED73E221C23D164005A8001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED73E211C23D164005A8001 /* Assets.xcassets */; };
+		BED73E251C23D164005A8001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED73E231C23D164005A8001 /* LaunchScreen.storyboard */; };
+		BED73E301C23D164005A8001 /* FingerBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED73E2F1C23D164005A8001 /* FingerBoardTests.swift */; };
+		BED73E3B1C23D164005A8001 /* FingerBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED73E3A1C23D164005A8001 /* FingerBoardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED73E2C1C23D164005A8001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED73E0F1C23D164005A8001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED73E161C23D164005A8001;
+			remoteInfo = FingerBoard;
+		};
+		BED73E371C23D164005A8001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED73E0F1C23D164005A8001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED73E161C23D164005A8001;
+			remoteInfo = FingerBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BED73E171C23D164005A8001 /* FingerBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED73E1A1C23D164005A8001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BED73E1C1C23D164005A8001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BED73E1F1C23D164005A8001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED73E211C23D164005A8001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED73E241C23D164005A8001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BED73E261C23D164005A8001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED73E2B1C23D164005A8001 /* FingerBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED73E2F1C23D164005A8001 /* FingerBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerBoardTests.swift; sourceTree = "<group>"; };
+		BED73E311C23D164005A8001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED73E361C23D164005A8001 /* FingerBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED73E3A1C23D164005A8001 /* FingerBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerBoardUITests.swift; sourceTree = "<group>"; };
+		BED73E3C1C23D164005A8001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED73E141C23D164005A8001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED73E281C23D164005A8001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED73E331C23D164005A8001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED73E0E1C23D164005A8001 = {
+			isa = PBXGroup;
+			children = (
+				BED73E191C23D164005A8001 /* FingerBoard */,
+				BED73E2E1C23D164005A8001 /* FingerBoardTests */,
+				BED73E391C23D164005A8001 /* FingerBoardUITests */,
+				BED73E181C23D164005A8001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED73E181C23D164005A8001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED73E171C23D164005A8001 /* FingerBoard.app */,
+				BED73E2B1C23D164005A8001 /* FingerBoardTests.xctest */,
+				BED73E361C23D164005A8001 /* FingerBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED73E191C23D164005A8001 /* FingerBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BED73E1A1C23D164005A8001 /* AppDelegate.swift */,
+				BED73E1C1C23D164005A8001 /* ViewController.swift */,
+				BED73E1E1C23D164005A8001 /* Main.storyboard */,
+				BED73E211C23D164005A8001 /* Assets.xcassets */,
+				BED73E231C23D164005A8001 /* LaunchScreen.storyboard */,
+				BED73E261C23D164005A8001 /* Info.plist */,
+			);
+			path = FingerBoard;
+			sourceTree = "<group>";
+		};
+		BED73E2E1C23D164005A8001 /* FingerBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED73E2F1C23D164005A8001 /* FingerBoardTests.swift */,
+				BED73E311C23D164005A8001 /* Info.plist */,
+			);
+			path = FingerBoardTests;
+			sourceTree = "<group>";
+		};
+		BED73E391C23D164005A8001 /* FingerBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BED73E3A1C23D164005A8001 /* FingerBoardUITests.swift */,
+				BED73E3C1C23D164005A8001 /* Info.plist */,
+			);
+			path = FingerBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED73E161C23D164005A8001 /* FingerBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED73E3F1C23D164005A8001 /* Build configuration list for PBXNativeTarget "FingerBoard" */;
+			buildPhases = (
+				BED73E131C23D164005A8001 /* Sources */,
+				BED73E141C23D164005A8001 /* Frameworks */,
+				BED73E151C23D164005A8001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerBoard;
+			productName = FingerBoard;
+			productReference = BED73E171C23D164005A8001 /* FingerBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED73E2A1C23D164005A8001 /* FingerBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED73E421C23D164005A8001 /* Build configuration list for PBXNativeTarget "FingerBoardTests" */;
+			buildPhases = (
+				BED73E271C23D164005A8001 /* Sources */,
+				BED73E281C23D164005A8001 /* Frameworks */,
+				BED73E291C23D164005A8001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED73E2D1C23D164005A8001 /* PBXTargetDependency */,
+			);
+			name = FingerBoardTests;
+			productName = FingerBoardTests;
+			productReference = BED73E2B1C23D164005A8001 /* FingerBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BED73E351C23D164005A8001 /* FingerBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED73E451C23D164005A8001 /* Build configuration list for PBXNativeTarget "FingerBoardUITests" */;
+			buildPhases = (
+				BED73E321C23D164005A8001 /* Sources */,
+				BED73E331C23D164005A8001 /* Frameworks */,
+				BED73E341C23D164005A8001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED73E381C23D164005A8001 /* PBXTargetDependency */,
+			);
+			name = FingerBoardUITests;
+			productName = FingerBoardUITests;
+			productReference = BED73E361C23D164005A8001 /* FingerBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED73E0F1C23D164005A8001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Charles Saidel";
+				TargetAttributes = {
+					BED73E161C23D164005A8001 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BED73E2A1C23D164005A8001 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BED73E161C23D164005A8001;
+					};
+					BED73E351C23D164005A8001 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BED73E161C23D164005A8001;
+					};
+				};
+			};
+			buildConfigurationList = BED73E121C23D164005A8001 /* Build configuration list for PBXProject "FingerBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED73E0E1C23D164005A8001;
+			productRefGroup = BED73E181C23D164005A8001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED73E161C23D164005A8001 /* FingerBoard */,
+				BED73E2A1C23D164005A8001 /* FingerBoardTests */,
+				BED73E351C23D164005A8001 /* FingerBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED73E151C23D164005A8001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED73E251C23D164005A8001 /* LaunchScreen.storyboard in Resources */,
+				BED73E221C23D164005A8001 /* Assets.xcassets in Resources */,
+				BED73E201C23D164005A8001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED73E291C23D164005A8001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED73E341C23D164005A8001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED73E131C23D164005A8001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED73E1D1C23D164005A8001 /* ViewController.swift in Sources */,
+				BED73E1B1C23D164005A8001 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED73E271C23D164005A8001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED73E301C23D164005A8001 /* FingerBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED73E321C23D164005A8001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED73E3B1C23D164005A8001 /* FingerBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED73E2D1C23D164005A8001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED73E161C23D164005A8001 /* FingerBoard */;
+			targetProxy = BED73E2C1C23D164005A8001 /* PBXContainerItemProxy */;
+		};
+		BED73E381C23D164005A8001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED73E161C23D164005A8001 /* FingerBoard */;
+			targetProxy = BED73E371C23D164005A8001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED73E1E1C23D164005A8001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED73E1F1C23D164005A8001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED73E231C23D164005A8001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED73E241C23D164005A8001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED73E3D1C23D164005A8001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BED73E3E1C23D164005A8001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED73E401C23D164005A8001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlessaidel.FingerBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BED73E411C23D164005A8001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlessaidel.FingerBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BED73E431C23D164005A8001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FingerBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlessaidel.FingerBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerBoard.app/FingerBoard";
+			};
+			name = Debug;
+		};
+		BED73E441C23D164005A8001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FingerBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlessaidel.FingerBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerBoard.app/FingerBoard";
+			};
+			name = Release;
+		};
+		BED73E461C23D164005A8001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FingerBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlessaidel.FingerBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FingerBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BED73E471C23D164005A8001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FingerBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlessaidel.FingerBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FingerBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED73E121C23D164005A8001 /* Build configuration list for PBXProject "FingerBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED73E3D1C23D164005A8001 /* Debug */,
+				BED73E3E1C23D164005A8001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED73E3F1C23D164005A8001 /* Build configuration list for PBXNativeTarget "FingerBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED73E401C23D164005A8001 /* Debug */,
+				BED73E411C23D164005A8001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BED73E421C23D164005A8001 /* Build configuration list for PBXNativeTarget "FingerBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED73E431C23D164005A8001 /* Debug */,
+				BED73E441C23D164005A8001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BED73E451C23D164005A8001 /* Build configuration list for PBXNativeTarget "FingerBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED73E461C23D164005A8001 /* Debug */,
+				BED73E471C23D164005A8001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED73E0F1C23D164005A8001 /* Project object */;
+}
